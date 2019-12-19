@@ -1,9 +1,10 @@
 # MSc thesis, Autumn 2019
-The content in this repository is still work in progress. I am currently working
-towards my deadline, November 15th 2019.
+This repository contains the work of my MSc thesis, a project that spanned over
+a year, working on a comparative study of CNN and LSTM. The source code is to be
+published after cleaning the code base.
 
 ## What
-The thesis focus on time series classification with uni-dimensional CNNs, in
+The thesis focus on time-series classification with uni-dimensional CNNs, in
 which the research question is concerned in answering how this compares to
 LSTM-based RNNs.
 
