@@ -1,0 +1,39 @@
+{
+	"_usecase": "football",
+	"_experiment_folder": "exp_football",
+	"data": {
+		"batches": 5,
+		"classes": 4,
+		"epoch": 300,
+		"es_loss": true,
+		"es_patience": 10,
+		"folds": 10,
+		"future_window": 1,
+		"resample": "D",
+		"score_threshold": 3,
+		"test_size": 0.1,
+		"val_size": 0.1,
+		"window": 30
+	},
+	"network": {
+		"activation": "relu",
+		"activation_rec": "tanh",
+		"architecture": "cnn",
+		"dilation_rate": 3,
+		"dropout": 0.3,
+		"kernel_size": 5,
+		"layers": [
+			150,
+			75,
+			50,
+			25
+		],
+		"learning_rate": 0.001,
+		"momentum": 0.001,
+		"nesterov": false,
+		"optimiser": "sgd",
+		"padding": "causal",
+		"sigmoid_threshold": 0.5,
+		"strides": 1
+	}
+}

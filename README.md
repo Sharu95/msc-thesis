@@ -1,7 +1,12 @@
 # MSc thesis, Autumn 2019
 This repository contains the work of my MSc thesis, a project that spanned over
-a year, working on a comparative study of CNN and LSTM. The source code is to be
-published after cleaning the code base.
+a year, working on a comparative study of CNN and LSTM. The codebase is not
+refactored yet and will be done soon. 
+
+## Code
+The codebase is not refactored and cleaned yet. To run, execute the
+`run.py`-script. Make sure there is a data folder and corresponding data-files
+resides in this folder.
 
 ## What
 The thesis focus on time-series classification with uni-dimensional CNNs, in
